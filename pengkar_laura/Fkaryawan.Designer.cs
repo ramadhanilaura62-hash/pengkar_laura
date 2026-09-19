@@ -97,9 +97,11 @@ namespace pengkar_laura
             this.guna2Panel1.Controls.Add(this.txtnik);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1253, 666);
+            this.guna2Panel1.Size = new System.Drawing.Size(835, 433);
             this.guna2Panel1.TabIndex = 2;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // cmbjk
             // 
@@ -113,11 +115,13 @@ namespace pengkar_laura
             this.cmbjk.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbjk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbjk.ItemHeight = 30;
-            this.cmbjk.Location = new System.Drawing.Point(245, 139);
+            this.cmbjk.Location = new System.Drawing.Point(163, 90);
+            this.cmbjk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbjk.Name = "cmbjk";
-            this.cmbjk.Size = new System.Drawing.Size(226, 36);
+            this.cmbjk.Size = new System.Drawing.Size(152, 36);
             this.cmbjk.TabIndex = 31;
             this.cmbjk.DropDown += new System.EventHandler(this.cmbjk_DropDown);
+            this.cmbjk.SelectedIndexChanged += new System.EventHandler(this.cmbjk_SelectedIndexChanged);
             // 
             // cmbstatus
             // 
@@ -131,20 +135,24 @@ namespace pengkar_laura
             this.cmbstatus.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbstatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbstatus.ItemHeight = 30;
-            this.cmbstatus.Location = new System.Drawing.Point(995, 160);
+            this.cmbstatus.Location = new System.Drawing.Point(663, 104);
+            this.cmbstatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbstatus.Name = "cmbstatus";
-            this.cmbstatus.Size = new System.Drawing.Size(226, 36);
+            this.cmbstatus.Size = new System.Drawing.Size(152, 36);
             this.cmbstatus.TabIndex = 30;
             this.cmbstatus.DropDown += new System.EventHandler(this.cmbstatus_DropDown);
+            this.cmbstatus.SelectedIndexChanged += new System.EventHandler(this.cmbstatus_SelectedIndexChanged);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(873, 139);
+            this.label10.Location = new System.Drawing.Point(582, 90);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 20);
+            this.label10.Size = new System.Drawing.Size(37, 13);
             this.label10.TabIndex = 29;
             this.label10.Text = "Status";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // date
             // 
@@ -154,49 +162,59 @@ namespace pengkar_laura
             this.date.FillColor = System.Drawing.Color.WhiteSmoke;
             this.date.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.date.Location = new System.Drawing.Point(995, 43);
+            this.date.Location = new System.Drawing.Point(663, 28);
+            this.date.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.date.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(226, 36);
+            this.date.Size = new System.Drawing.Size(151, 23);
             this.date.TabIndex = 28;
             this.date.Value = new System.DateTime(2026, 9, 5, 15, 50, 34, 535);
+            this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(872, 51);
+            this.label9.Location = new System.Drawing.Point(581, 33);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(117, 20);
+            this.label9.Size = new System.Drawing.Size(81, 13);
             this.label9.TabIndex = 27;
             this.label9.Text = "Tanggal Masuk";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(518, 51);
+            this.label8.Location = new System.Drawing.Point(345, 33);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 20);
+            this.label8.Size = new System.Drawing.Size(39, 13);
             this.label8.TabIndex = 26;
             this.label8.Text = "Alamat";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(130, 140);
+            this.label7.Location = new System.Drawing.Point(87, 91);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 20);
+            this.label7.Size = new System.Drawing.Size(71, 13);
             this.label7.TabIndex = 25;
             this.label7.Text = "Jenis Kelamin";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(131, 51);
+            this.label4.Location = new System.Drawing.Point(87, 33);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 20);
+            this.label4.Size = new System.Drawing.Size(25, 13);
             this.label4.TabIndex = 24;
             this.label4.Text = "NIK";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtalamat
             // 
@@ -211,13 +229,14 @@ namespace pengkar_laura
             this.txtalamat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtalamat.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtalamat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtalamat.Location = new System.Drawing.Point(612, 42);
-            this.txtalamat.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtalamat.Location = new System.Drawing.Point(408, 27);
+            this.txtalamat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtalamat.Name = "txtalamat";
             this.txtalamat.PlaceholderText = "";
             this.txtalamat.SelectedText = "";
-            this.txtalamat.Size = new System.Drawing.Size(226, 77);
+            this.txtalamat.Size = new System.Drawing.Size(151, 50);
             this.txtalamat.TabIndex = 23;
+            this.txtalamat.TextChanged += new System.EventHandler(this.txtalamat_TextChanged);
             // 
             // txtnm
             // 
@@ -232,22 +251,25 @@ namespace pengkar_laura
             this.txtnm.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnm.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtnm.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnm.Location = new System.Drawing.Point(245, 85);
-            this.txtnm.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtnm.Location = new System.Drawing.Point(163, 55);
+            this.txtnm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnm.Name = "txtnm";
             this.txtnm.PlaceholderText = "";
             this.txtnm.SelectedText = "";
-            this.txtnm.Size = new System.Drawing.Size(226, 34);
+            this.txtnm.Size = new System.Drawing.Size(151, 22);
             this.txtnm.TabIndex = 19;
+            this.txtnm.TextChanged += new System.EventHandler(this.txtnm_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(515, 136);
+            this.label6.Location = new System.Drawing.Point(343, 88);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 20);
+            this.label6.Size = new System.Drawing.Size(57, 13);
             this.label6.TabIndex = 18;
             this.label6.Text = "No Telpon\r\n";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtNT
             // 
@@ -262,13 +284,14 @@ namespace pengkar_laura
             this.txtNT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNT.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNT.Location = new System.Drawing.Point(612, 132);
-            this.txtNT.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtNT.Location = new System.Drawing.Point(408, 86);
+            this.txtNT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNT.Name = "txtNT";
             this.txtNT.PlaceholderText = "";
             this.txtNT.SelectedText = "";
-            this.txtNT.Size = new System.Drawing.Size(226, 34);
+            this.txtNT.Size = new System.Drawing.Size(151, 22);
             this.txtNT.TabIndex = 17;
+            this.txtNT.TextChanged += new System.EventHandler(this.txtNT_TextChanged);
             this.txtNT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNT_KeyPress);
             // 
             // cmbjabatan
@@ -283,9 +306,10 @@ namespace pengkar_laura
             this.cmbjabatan.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbjabatan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbjabatan.ItemHeight = 30;
-            this.cmbjabatan.Location = new System.Drawing.Point(995, 88);
+            this.cmbjabatan.Location = new System.Drawing.Point(663, 57);
+            this.cmbjabatan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbjabatan.Name = "cmbjabatan";
-            this.cmbjabatan.Size = new System.Drawing.Size(226, 36);
+            this.cmbjabatan.Size = new System.Drawing.Size(152, 36);
             this.cmbjabatan.TabIndex = 16;
             this.cmbjabatan.DropDown += new System.EventHandler(this.cmbjabatan_DropDown);
             this.cmbjabatan.SelectedIndexChanged += new System.EventHandler(this.cmbjabatan_SelectedIndexChanged);
@@ -294,9 +318,10 @@ namespace pengkar_laura
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(872, 90);
+            this.label5.Location = new System.Drawing.Point(581, 58);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 20);
+            this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "Jabatan  ";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -311,9 +336,10 @@ namespace pengkar_laura
             this.guna2Button3.FillColor = System.Drawing.Color.Navy;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(995, 272);
+            this.guna2Button3.Location = new System.Drawing.Point(663, 177);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(141, 38);
+            this.guna2Button3.Size = new System.Drawing.Size(94, 25);
             this.guna2Button3.TabIndex = 12;
             this.guna2Button3.Text = "Tampil data";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -328,9 +354,10 @@ namespace pengkar_laura
             this.guna2Button2.FillColor = System.Drawing.Color.Navy;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(1109, 229);
+            this.guna2Button2.Location = new System.Drawing.Point(739, 149);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(112, 38);
+            this.guna2Button2.Size = new System.Drawing.Size(75, 25);
             this.guna2Button2.TabIndex = 11;
             this.guna2Button2.Text = "Ubah";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -373,13 +400,14 @@ namespace pengkar_laura
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.Navy;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 352);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 229);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 62;
             this.guna2DataGridView1.RowTemplate.Height = 28;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1253, 314);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(835, 204);
             this.guna2DataGridView1.TabIndex = 10;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.Navy;
@@ -389,6 +417,7 @@ namespace pengkar_laura
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 28;
             this.guna2DataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellClick);
+            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -477,9 +506,10 @@ namespace pengkar_laura
             this.guna2Button1.FillColor = System.Drawing.Color.Navy;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(995, 229);
+            this.guna2Button1.Location = new System.Drawing.Point(663, 149);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button1.Size = new System.Drawing.Size(72, 25);
             this.guna2Button1.TabIndex = 9;
             this.guna2Button1.Text = "Simpan";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -488,9 +518,10 @@ namespace pengkar_laura
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(94, 56);
+            this.label3.Location = new System.Drawing.Point(63, 36);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 20);
+            this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "--";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -498,20 +529,24 @@ namespace pengkar_laura
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 54);
+            this.label2.Location = new System.Drawing.Point(19, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 20);
+            this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "ID        :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(131, 90);
+            this.label1.Location = new System.Drawing.Point(87, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 40);
+            this.label1.Size = new System.Drawing.Size(35, 26);
             this.label1.TabIndex = 6;
             this.label1.Text = "Nama\r\n\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtnik
             // 
@@ -526,22 +561,22 @@ namespace pengkar_laura
             this.txtnik.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnik.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtnik.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnik.Location = new System.Drawing.Point(245, 42);
-            this.txtnik.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtnik.Location = new System.Drawing.Point(163, 27);
+            this.txtnik.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnik.Name = "txtnik";
             this.txtnik.PlaceholderText = "";
             this.txtnik.SelectedText = "";
-            this.txtnik.Size = new System.Drawing.Size(226, 34);
+            this.txtnik.Size = new System.Drawing.Size(151, 22);
             this.txtnik.TabIndex = 5;
+            this.txtnik.TextChanged += new System.EventHandler(this.txtnik_TextChanged);
             this.txtnik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnm_KeyPress);
             // 
             // Fkaryawan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1253, 666);
+            this.ClientSize = new System.Drawing.Size(835, 433);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Fkaryawan";
             this.Text = "Fkaryawan";
             this.guna2Panel1.ResumeLayout(false);

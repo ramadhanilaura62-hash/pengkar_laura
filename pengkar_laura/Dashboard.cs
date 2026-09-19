@@ -51,11 +51,7 @@ namespace pengkar_laura
             KF.untukFormLaura(fkaryawan, pnlkonten);
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            Fabsen fabsen = new Fabsen() { TopMost = true, TopLevel = false };
-            KF.untukFormLaura(fabsen, pnlkonten);
-        }
+        
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
@@ -81,6 +77,25 @@ namespace pengkar_laura
         private void guna2Panel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void penggajian_Click(object sender, EventArgs e)
+        {
+
+           
+        }
+
+        private void tabsensi_Click(object sender, EventArgs e)
+        {
+            Fabsen fabsen = new Fabsen() { TopMost = true, TopLevel = false };
+            KF.untukFormLaura(fabsen, pnlkonten);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+            Ftransaksi ftrans = new Ftransaksi() { TopMost = true, TopLevel = false };
+            KF.untukFormLaura(ftrans, pnlkonten);
         }
     }
 }

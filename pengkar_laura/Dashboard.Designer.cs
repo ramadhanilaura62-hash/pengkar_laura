@@ -34,7 +34,7 @@ namespace pengkar_laura
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.tabsensi = new Guna.UI2.WinForms.Guna2Button();
             this.tkaryawan = new Guna.UI2.WinForms.Guna2Button();
             this.tuser = new Guna.UI2.WinForms.Guna2Button();
             this.trole = new Guna.UI2.WinForms.Guna2Button();
@@ -43,12 +43,13 @@ namespace pengkar_laura
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlkonten = new System.Windows.Forms.Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -61,10 +62,11 @@ namespace pengkar_laura
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.guna2Button1);
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.guna2Button2);
-            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.tabsensi);
             this.panel1.Controls.Add(this.tkaryawan);
             this.panel1.Controls.Add(this.tuser);
             this.panel1.Controls.Add(this.trole);
@@ -109,25 +111,25 @@ namespace pengkar_laura
             this.guna2Button2.FillColor = System.Drawing.Color.MidnightBlue;
             this.guna2Button2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(32, 355);
+            this.guna2Button2.Location = new System.Drawing.Point(32, 262);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(135, 40);
             this.guna2Button2.TabIndex = 4;
             this.guna2Button2.Text = "Jabatan";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // guna2Button1
+            // tabsensi
             // 
-            this.guna2Button1.BorderRadius = 5;
-            this.guna2Button1.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(32, 309);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(135, 40);
-            this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "Absensi";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.tabsensi.BorderRadius = 5;
+            this.tabsensi.FillColor = System.Drawing.Color.MidnightBlue;
+            this.tabsensi.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabsensi.ForeColor = System.Drawing.Color.White;
+            this.tabsensi.Location = new System.Drawing.Point(32, 355);
+            this.tabsensi.Name = "tabsensi";
+            this.tabsensi.Size = new System.Drawing.Size(135, 40);
+            this.tabsensi.TabIndex = 3;
+            this.tabsensi.Text = "Absensi";
+            this.tabsensi.Click += new System.EventHandler(this.tabsensi_Click);
             // 
             // tkaryawan
             // 
@@ -135,7 +137,7 @@ namespace pengkar_laura
             this.tkaryawan.FillColor = System.Drawing.Color.MidnightBlue;
             this.tkaryawan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tkaryawan.ForeColor = System.Drawing.Color.White;
-            this.tkaryawan.Location = new System.Drawing.Point(32, 263);
+            this.tkaryawan.Location = new System.Drawing.Point(32, 309);
             this.tkaryawan.Name = "tkaryawan";
             this.tkaryawan.Size = new System.Drawing.Size(135, 40);
             this.tkaryawan.TabIndex = 2;
@@ -148,7 +150,7 @@ namespace pengkar_laura
             this.tuser.FillColor = System.Drawing.Color.MidnightBlue;
             this.tuser.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tuser.ForeColor = System.Drawing.Color.White;
-            this.tuser.Location = new System.Drawing.Point(32, 218);
+            this.tuser.Location = new System.Drawing.Point(32, 216);
             this.tuser.Name = "tuser";
             this.tuser.Size = new System.Drawing.Size(135, 40);
             this.tuser.TabIndex = 1;
@@ -222,7 +224,7 @@ namespace pengkar_laura
             // 
             // pnlkonten
             // 
-            this.pnlkonten.BackColor = System.Drawing.Color.White;
+            this.pnlkonten.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnlkonten.Controls.Add(this.guna2Panel5);
             this.pnlkonten.Controls.Add(this.guna2Panel6);
             this.pnlkonten.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -232,18 +234,6 @@ namespace pengkar_laura
             this.pnlkonten.Size = new System.Drawing.Size(1128, 517);
             this.pnlkonten.TabIndex = 8;
             this.pnlkonten.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlkonten_Paint);
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Panel1.BackColor = System.Drawing.Color.Lavender;
-            this.guna2Panel1.BorderRadius = 15;
-            this.guna2Panel1.FillColor = System.Drawing.Color.LightSteelBlue;
-            this.guna2Panel1.Location = new System.Drawing.Point(86, 55);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(206, 100);
-            this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Panel5
             // 
@@ -281,17 +271,17 @@ namespace pengkar_laura
             this.guna2Panel6.Size = new System.Drawing.Size(1090, 389);
             this.guna2Panel6.TabIndex = 8;
             // 
-            // guna2Panel7
+            // guna2Panel2
             // 
-            this.guna2Panel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Panel7.BackColor = System.Drawing.Color.Lavender;
-            this.guna2Panel7.BorderRadius = 15;
-            this.guna2Panel7.FillColor = System.Drawing.Color.LightSteelBlue;
-            this.guna2Panel7.Location = new System.Drawing.Point(835, 55);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(205, 100);
-            this.guna2Panel7.TabIndex = 1;
+            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel2.BackColor = System.Drawing.Color.Lavender;
+            this.guna2Panel2.BorderRadius = 15;
+            this.guna2Panel2.FillColor = System.Drawing.Color.LightSteelBlue;
+            this.guna2Panel2.Location = new System.Drawing.Point(588, 55);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(205, 100);
+            this.guna2Panel2.TabIndex = 3;
             // 
             // guna2Panel4
             // 
@@ -305,17 +295,42 @@ namespace pengkar_laura
             this.guna2Panel4.Size = new System.Drawing.Size(205, 100);
             this.guna2Panel4.TabIndex = 2;
             // 
-            // guna2Panel2
+            // guna2Panel1
             // 
-            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Panel2.BackColor = System.Drawing.Color.Lavender;
-            this.guna2Panel2.BorderRadius = 15;
-            this.guna2Panel2.FillColor = System.Drawing.Color.LightSteelBlue;
-            this.guna2Panel2.Location = new System.Drawing.Point(588, 55);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(205, 100);
-            this.guna2Panel2.TabIndex = 3;
+            this.guna2Panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel1.BackColor = System.Drawing.Color.Lavender;
+            this.guna2Panel1.BorderRadius = 15;
+            this.guna2Panel1.FillColor = System.Drawing.Color.LightSteelBlue;
+            this.guna2Panel1.Location = new System.Drawing.Point(86, 55);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(206, 100);
+            this.guna2Panel1.TabIndex = 0;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel7.BackColor = System.Drawing.Color.Lavender;
+            this.guna2Panel7.BorderRadius = 15;
+            this.guna2Panel7.FillColor = System.Drawing.Color.LightSteelBlue;
+            this.guna2Panel7.Location = new System.Drawing.Point(835, 55);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(205, 100);
+            this.guna2Panel7.TabIndex = 1;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 5;
+            this.guna2Button1.FillColor = System.Drawing.Color.MidnightBlue;
+            this.guna2Button1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(32, 401);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(135, 40);
+            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.Text = "Penggajian";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Dashboard
             // 
@@ -349,7 +364,7 @@ namespace pengkar_laura
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel pnlkonten;
         private Guna.UI2.WinForms.Guna2Button tkaryawan;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button tabsensi;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
@@ -362,5 +377,6 @@ namespace pengkar_laura
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

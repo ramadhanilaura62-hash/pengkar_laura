@@ -110,6 +110,12 @@
     <Compile Include="Fdash.Designer.cs">
       <DependentUpon>Fdash.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fdetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fdetail.Designer.cs">
+      <DependentUpon>Fdetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fjabatan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,12 @@
     <Compile Include="Frole.Designer.cs">
       <DependentUpon>Frole.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ftransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ftransaksi.Designer.cs">
+      <DependentUpon>Ftransaksi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fuser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +165,9 @@
     <EmbeddedResource Include="Fdash.resx">
       <DependentUpon>Fdash.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fdetail.resx">
+      <DependentUpon>Fdetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fjabatan.resx">
       <DependentUpon>Fjabatan.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frole.resx">
       <DependentUpon>Frole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ftransaksi.resx">
+      <DependentUpon>Ftransaksi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fuser.resx">
       <DependentUpon>Fuser.cs</DependentUpon>

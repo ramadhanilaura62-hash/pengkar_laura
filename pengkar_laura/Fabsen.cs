@@ -36,8 +36,29 @@ namespace pengkar_laura
             txtJM.Text = "";
             cmbstatus.Text = "";
             cmbket.Text = "";
+            label3.Text = "";
 
             time.Value = DateTime.Now;
+        }
+
+        private double HitungLembur(string jamKeluar)
+        {
+            if (string.IsNullOrWhiteSpace(jamKeluar))
+                return 0;
+
+            if (TimeSpan.TryParse(jamKeluar, out TimeSpan waktuKeluar))
+            {
+                TimeSpan jamNormal = new TimeSpan(17, 0, 0);
+
+                if (waktuKeluar > jamNormal)
+                {
+                    TimeSpan selisih = waktuKeluar - jamNormal;
+
+                    return selisih.TotalHours;
+                }
+            }
+
+            return 0;
         }
 
         private void tampilData()
@@ -59,8 +80,9 @@ namespace pengkar_laura
                 String nj = "" + baris["jam_keluar"];
                 String jl = "" + baris["status"];
                 String ket = "" + baris["keterangan"];
+                String lembur = "" + baris["lembur"];
 
-                guna2DataGridView1.Rows.Add(id, nm, bt_val, th, nj, jl, ket);
+                guna2DataGridView1.Rows.Add(id, nm, bt_val, th, nj, jl, ket, lembur);
             }
         }
 
@@ -113,7 +135,7 @@ namespace pengkar_laura
                 int kolom = e.ColumnIndex;
 
 
-                if (kolom == 7)
+                if (kolom == 8)
                 {
                     string idpt = guna2DataGridView1.Rows[baris].Cells[0].Value.ToString();
 
@@ -145,7 +167,7 @@ namespace pengkar_laura
                     }
                 }
 
-                if (kolom == 8)
+                if (kolom == 9)
                 {
                     string idpt = guna2DataGridView1.Rows[baris].Cells[0].Value.ToString();
                     DialogResult setuju = MessageBox.Show("Hapus data?", "Pemberitahuan", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -183,20 +205,21 @@ namespace pengkar_laura
                 using (var workbook = new XLWorkbook(filePath))
                 {
                     var worksheet = workbook.Worksheet(1);
-
                     foreach (var row in worksheet.RowsUsed().Skip(1))
                     {
                         string NM = row.Cell(2).Value.ToString();
-                        string tanggal = row.Cell(3).GetDateTime().ToString("yyyy-MM-dd");
+                        string tanggal = row.Cell(3).Value.ToString();
                         string jamMasuk = row.Cell(4).Value.ToString();
                         string jamKeluar = row.Cell(5).Value.ToString();
                         string st = row.Cell(6).Value.ToString();
                         string ket = row.Cell(7).Value.ToString();
 
+                        double lembur = HitungLembur(jamKeluar);
+
                         koneksi.CRUD(
                             $"INSERT INTO tabsensi " +
-                            $"(id_karyawan, tanggal, jam_masuk, jam_keluar, status, keterangan) " +
-                            $"VALUES ('{NM}', '{tanggal}', '{jamMasuk}', '{jamKeluar}', '{st}', '{ket}')"
+                            $"(id_karyawan, tanggal, jam_masuk, jam_keluar, status, keterangan, lembur) " +
+                            $"VALUES ('{NM}', '{tanggal}', '{jamMasuk}', '{jamKeluar}', '{st}', '{ket}', '{lembur}')"
                         );
                     }
                 }
