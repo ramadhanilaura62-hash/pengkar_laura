@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
 
 namespace pengkar_laura
 {
@@ -345,6 +348,22 @@ namespace pengkar_laura
         }
 
         private void txtnik_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            ReportDocument rpt = new ReportDocument();
+            rpt.Load(@"E:\TugasDestop\Project_destop_laura\pengkar_laura\LAPORAN KARYAWAN_(V1-LAPORAN).rpt");
+
+            string pdfPath = Path.Combine(Path.GetTempPath(), "Laporan_karyawan.pdf");
+            rpt.ExportToDisk(ExportFormatType.PortableDocFormat, pdfPath);
+
+            System.Diagnostics.Process.Start(pdfPath);
+        }
+
+        private void crystalReportViewer1_Load(object sender, EventArgs e)
         {
 
         }

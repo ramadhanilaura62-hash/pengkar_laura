@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Sep 2026 pada 03.17
--- Versi server: 10.4.32-MariaDB
--- Versi PHP: 8.2.12
+-- Generation Time: Sep 19, 2026 at 03:25 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `detail_penggajian`
+-- Table structure for table `detail_penggajian`
 --
 
 CREATE TABLE `detail_penggajian` (
@@ -38,7 +38,7 @@ CREATE TABLE `detail_penggajian` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tabsensi`
+-- Table structure for table `tabsensi`
 --
 
 CREATE TABLE `tabsensi` (
@@ -48,13 +48,26 @@ CREATE TABLE `tabsensi` (
   `jam_masuk` time NOT NULL,
   `jam_keluar` time NOT NULL,
   `status` varchar(20) NOT NULL,
-  `keterangan` varchar(255) NOT NULL
+  `keterangan` varchar(255) NOT NULL,
+  `lembur` decimal(5,2) DEFAULT 0.00
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tabsensi`
+--
+
+INSERT INTO `tabsensi` (`id_absensi`, `id_karyawan`, `tanggal`, `jam_masuk`, `jam_keluar`, `status`, `keterangan`, `lembur`) VALUES
+(6, 0, '2026-09-01', '07:30:00', '17:00:00', 'Hadir', '--', 0.00),
+(7, 0, '2026-09-01', '07:30:00', '18:00:00', 'Hadir', '--', 1.00),
+(8, 0, '2026-09-01', '07:45:00', '19:00:00', 'Hadir', 'Terlambat', 2.00),
+(9, 0, '2026-09-01', '07:30:00', '16:30:00', 'Hadir', '--', 0.00),
+(10, 0, '2026-09-01', '07:30:00', '20:30:00', 'Hadir', 'Lembur', 3.00),
+(11, 0, '2026-09-01', '00:00:00', '00:00:00', 'Izin', 'Keperluan keluarga', 0.00);
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tjabatan`
+-- Table structure for table `tjabatan`
 --
 
 CREATE TABLE `tjabatan` (
@@ -65,7 +78,7 @@ CREATE TABLE `tjabatan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `tjabatan`
+-- Dumping data for table `tjabatan`
 --
 
 INSERT INTO `tjabatan` (`id_jabatan`, `nama_jabatan`, `gaji_pokok`, `tunjangan_jabatan`) VALUES
@@ -76,7 +89,7 @@ INSERT INTO `tjabatan` (`id_jabatan`, `nama_jabatan`, `gaji_pokok`, `tunjangan_j
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tkaryawan`
+-- Table structure for table `tkaryawan`
 --
 
 CREATE TABLE `tkaryawan` (
@@ -92,7 +105,7 @@ CREATE TABLE `tkaryawan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `tkaryawan`
+-- Dumping data for table `tkaryawan`
 --
 
 INSERT INTO `tkaryawan` (`id_karyawan`, `nik`, `nama_karyawan`, `jenis_kelamin`, `alamat`, `nomor_telp`, `tanggal_masuk`, `id_jabatan`, `status`) VALUES
@@ -102,7 +115,7 @@ INSERT INTO `tkaryawan` (`id_karyawan`, `nik`, `nama_karyawan`, `jenis_kelamin`,
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tpenggajian`
+-- Table structure for table `tpenggajian`
 --
 
 CREATE TABLE `tpenggajian` (
@@ -121,7 +134,7 @@ CREATE TABLE `tpenggajian` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `trole`
+-- Table structure for table `trole`
 --
 
 CREATE TABLE `trole` (
@@ -130,7 +143,7 @@ CREATE TABLE `trole` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `trole`
+-- Dumping data for table `trole`
 --
 
 INSERT INTO `trole` (`id_role`, `role_name`) VALUES
@@ -140,7 +153,7 @@ INSERT INTO `trole` (`id_role`, `role_name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tusers`
+-- Table structure for table `tusers`
 --
 
 CREATE TABLE `tusers` (
@@ -152,7 +165,7 @@ CREATE TABLE `tusers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `tusers`
+-- Dumping data for table `tusers`
 --
 
 INSERT INTO `tusers` (`id_user`, `username`, `password`, `nama_karyawan`, `id_role`) VALUES
@@ -164,89 +177,89 @@ INSERT INTO `tusers` (`id_user`, `username`, `password`, `nama_karyawan`, `id_ro
 --
 
 --
--- Indeks untuk tabel `detail_penggajian`
+-- Indexes for table `detail_penggajian`
 --
 ALTER TABLE `detail_penggajian`
   ADD PRIMARY KEY (`id_detail`);
 
 --
--- Indeks untuk tabel `tabsensi`
+-- Indexes for table `tabsensi`
 --
 ALTER TABLE `tabsensi`
   ADD PRIMARY KEY (`id_absensi`);
 
 --
--- Indeks untuk tabel `tjabatan`
+-- Indexes for table `tjabatan`
 --
 ALTER TABLE `tjabatan`
   ADD PRIMARY KEY (`id_jabatan`);
 
 --
--- Indeks untuk tabel `tkaryawan`
+-- Indexes for table `tkaryawan`
 --
 ALTER TABLE `tkaryawan`
   ADD PRIMARY KEY (`id_karyawan`);
 
 --
--- Indeks untuk tabel `tpenggajian`
+-- Indexes for table `tpenggajian`
 --
 ALTER TABLE `tpenggajian`
   ADD PRIMARY KEY (`id_penggajian`);
 
 --
--- Indeks untuk tabel `trole`
+-- Indexes for table `trole`
 --
 ALTER TABLE `trole`
   ADD PRIMARY KEY (`id_role`);
 
 --
--- Indeks untuk tabel `tusers`
+-- Indexes for table `tusers`
 --
 ALTER TABLE `tusers`
   ADD PRIMARY KEY (`id_user`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `detail_penggajian`
+-- AUTO_INCREMENT for table `detail_penggajian`
 --
 ALTER TABLE `detail_penggajian`
   MODIFY `id_detail` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `tabsensi`
+-- AUTO_INCREMENT for table `tabsensi`
 --
 ALTER TABLE `tabsensi`
-  MODIFY `id_absensi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_absensi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
--- AUTO_INCREMENT untuk tabel `tjabatan`
+-- AUTO_INCREMENT for table `tjabatan`
 --
 ALTER TABLE `tjabatan`
   MODIFY `id_jabatan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT untuk tabel `tkaryawan`
+-- AUTO_INCREMENT for table `tkaryawan`
 --
 ALTER TABLE `tkaryawan`
   MODIFY `id_karyawan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT untuk tabel `tpenggajian`
+-- AUTO_INCREMENT for table `tpenggajian`
 --
 ALTER TABLE `tpenggajian`
   MODIFY `id_penggajian` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `trole`
+-- AUTO_INCREMENT for table `trole`
 --
 ALTER TABLE `trole`
   MODIFY `id_role` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
--- AUTO_INCREMENT untuk tabel `tusers`
+-- AUTO_INCREMENT for table `tusers`
 --
 ALTER TABLE `tusers`
   MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;

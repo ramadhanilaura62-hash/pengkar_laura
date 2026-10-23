@@ -97,5 +97,11 @@ namespace pengkar_laura
             Ftransaksi ftrans = new Ftransaksi() { TopMost = true, TopLevel = false };
             KF.untukFormLaura(ftrans, pnlkonten);
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2() { TopMost = true, TopLevel = false };
+            KF.untukFormLaura(form2, pnlkonten);
+        }
     }
 }

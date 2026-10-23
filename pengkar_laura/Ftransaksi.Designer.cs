@@ -29,16 +29,16 @@ namespace pengkar_laura
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cmbket = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.cmbstatus = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -207,9 +207,10 @@ namespace pengkar_laura
             this.cmbket.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbket.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbket.ItemHeight = 30;
-            this.cmbket.Location = new System.Drawing.Point(968, 12);
+            this.cmbket.Location = new System.Drawing.Point(645, 8);
+            this.cmbket.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbket.Name = "cmbket";
-            this.cmbket.Size = new System.Drawing.Size(226, 36);
+            this.cmbket.Size = new System.Drawing.Size(152, 36);
             this.cmbket.TabIndex = 50;
             // 
             // guna2Button4
@@ -222,9 +223,10 @@ namespace pengkar_laura
             this.guna2Button4.FillColor = System.Drawing.Color.Navy;
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(1068, 98);
+            this.guna2Button4.Location = new System.Drawing.Point(712, 64);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(141, 38);
+            this.guna2Button4.Size = new System.Drawing.Size(94, 25);
             this.guna2Button4.TabIndex = 49;
             this.guna2Button4.Text = "Import Excel";
             // 
@@ -240,9 +242,10 @@ namespace pengkar_laura
             this.cmbstatus.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbstatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbstatus.ItemHeight = 30;
-            this.cmbstatus.Location = new System.Drawing.Point(585, 103);
+            this.cmbstatus.Location = new System.Drawing.Point(390, 67);
+            this.cmbstatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbstatus.Name = "cmbstatus";
-            this.cmbstatus.Size = new System.Drawing.Size(226, 36);
+            this.cmbstatus.Size = new System.Drawing.Size(152, 36);
             this.cmbstatus.TabIndex = 48;
             // 
             // time
@@ -252,29 +255,32 @@ namespace pengkar_laura
             this.time.FillColor = System.Drawing.Color.White;
             this.time.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.time.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.time.Location = new System.Drawing.Point(180, 109);
+            this.time.Location = new System.Drawing.Point(120, 71);
+            this.time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.time.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.time.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(226, 35);
+            this.time.Size = new System.Drawing.Size(151, 23);
             this.time.TabIndex = 47;
             this.time.Value = new System.DateTime(2026, 9, 10, 17, 27, 26, 215);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(864, 18);
+            this.label7.Location = new System.Drawing.Point(576, 12);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 20);
+            this.label7.Size = new System.Drawing.Size(62, 13);
             this.label7.TabIndex = 46;
             this.label7.Text = "Keterangan";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(471, 72);
+            this.label4.Location = new System.Drawing.Point(314, 47);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 20);
+            this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 45;
             this.label4.Text = "Jam Keluar";
             // 
@@ -291,20 +297,21 @@ namespace pengkar_laura
             this.txtJK.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtJK.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtJK.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtJK.Location = new System.Drawing.Point(585, 58);
-            this.txtJK.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtJK.Location = new System.Drawing.Point(390, 38);
+            this.txtJK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtJK.Name = "txtJK";
             this.txtJK.PlaceholderText = "";
             this.txtJK.SelectedText = "";
-            this.txtJK.Size = new System.Drawing.Size(226, 34);
+            this.txtJK.Size = new System.Drawing.Size(151, 22);
             this.txtJK.TabIndex = 44;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(48, 117);
+            this.label6.Location = new System.Drawing.Point(32, 76);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 20);
+            this.label6.Size = new System.Drawing.Size(46, 13);
             this.label6.TabIndex = 43;
             this.label6.Text = "Tanggal";
             // 
@@ -321,20 +328,21 @@ namespace pengkar_laura
             this.txtJM.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtJM.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtJM.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtJM.Location = new System.Drawing.Point(585, 12);
-            this.txtJM.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtJM.Location = new System.Drawing.Point(390, 8);
+            this.txtJM.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtJM.Name = "txtJM";
             this.txtJM.PlaceholderText = "";
             this.txtJM.SelectedText = "";
-            this.txtJM.Size = new System.Drawing.Size(226, 34);
+            this.txtJM.Size = new System.Drawing.Size(151, 22);
             this.txtJM.TabIndex = 42;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(470, 26);
+            this.label5.Location = new System.Drawing.Point(313, 17);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 20);
+            this.label5.Size = new System.Drawing.Size(61, 13);
             this.label5.TabIndex = 41;
             this.label5.Text = "Jam Masuk";
             // 
@@ -348,9 +356,10 @@ namespace pengkar_laura
             this.guna2Button3.FillColor = System.Drawing.Color.Navy;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(954, 143);
+            this.guna2Button3.Location = new System.Drawing.Point(636, 93);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(141, 38);
+            this.guna2Button3.Size = new System.Drawing.Size(94, 25);
             this.guna2Button3.TabIndex = 40;
             this.guna2Button3.Text = "Tampil data";
             // 
@@ -358,16 +367,16 @@ namespace pengkar_laura
             // 
             this.guna2DataGridView1.AllowUserToAddRows = false;
             this.guna2DataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView1.ColumnHeadersHeight = 22;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -383,23 +392,24 @@ namespace pengkar_laura
             this.Column14,
             this.Column3,
             this.Column4});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.Blue;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 451);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 251);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 62;
             this.guna2DataGridView1.RowTemplate.Height = 28;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1310, 241);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(873, 199);
             this.guna2DataGridView1.TabIndex = 39;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.Blue;
@@ -426,8 +436,8 @@ namespace pengkar_laura
             // 
             // Column6
             // 
-            dataGridViewCellStyle13.Format = "MMM YYY";
-            this.Column6.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle3.Format = "MMM YYY";
+            this.Column6.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column6.HeaderText = "Bulan";
             this.Column6.MinimumWidth = 8;
             this.Column6.Name = "Column6";
@@ -506,36 +516,40 @@ namespace pengkar_laura
             this.guna2Button1.FillColor = System.Drawing.Color.Navy;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(954, 98);
+            this.guna2Button1.Location = new System.Drawing.Point(636, 64);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button1.Size = new System.Drawing.Size(72, 25);
             this.guna2Button1.TabIndex = 38;
             this.guna2Button1.Text = "Simpan";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(186, 26);
+            this.label3.Location = new System.Drawing.Point(124, 17);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 20);
+            this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 37;
             this.label3.Text = "--";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 26);
+            this.label2.Location = new System.Drawing.Point(34, 17);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 20);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 36;
             this.label2.Text = "ID             :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 68);
+            this.label1.Location = new System.Drawing.Point(32, 44);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 20);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 35;
             this.label1.Tag = "";
             this.label1.Text = "Karyawan";
@@ -553,12 +567,12 @@ namespace pengkar_laura
             this.txtnm.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnm.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtnm.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnm.Location = new System.Drawing.Point(180, 58);
-            this.txtnm.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtnm.Location = new System.Drawing.Point(120, 38);
+            this.txtnm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnm.Name = "txtnm";
             this.txtnm.PlaceholderText = "";
             this.txtnm.SelectedText = "";
-            this.txtnm.Size = new System.Drawing.Size(226, 34);
+            this.txtnm.Size = new System.Drawing.Size(151, 22);
             this.txtnm.TabIndex = 34;
             // 
             // guna2Panel1
@@ -594,8 +608,9 @@ namespace pengkar_laura
             this.guna2Panel1.Controls.Add(this.guna2TextBox3);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1310, 451);
+            this.guna2Panel1.Size = new System.Drawing.Size(873, 251);
             this.guna2Panel1.TabIndex = 51;
             // 
             // guna2Panel4
@@ -626,9 +641,11 @@ namespace pengkar_laura
             this.guna2Panel4.Controls.Add(this.label52);
             this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(1310, 451);
+            this.guna2Panel4.Size = new System.Drawing.Size(873, 251);
             this.guna2Panel4.TabIndex = 53;
+            this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
             // 
             // guna2Button11
             // 
@@ -640,9 +657,10 @@ namespace pengkar_laura
             this.guna2Button11.FillColor = System.Drawing.Color.Navy;
             this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button11.ForeColor = System.Drawing.Color.White;
-            this.guna2Button11.Location = new System.Drawing.Point(896, 217);
+            this.guna2Button11.Location = new System.Drawing.Point(597, 141);
+            this.guna2Button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(140, 40);
+            this.guna2Button11.Size = new System.Drawing.Size(93, 26);
             this.guna2Button11.TabIndex = 79;
             this.guna2Button11.Text = "Tampil data";
             // 
@@ -656,9 +674,10 @@ namespace pengkar_laura
             this.guna2Button12.FillColor = System.Drawing.Color.Navy;
             this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button12.ForeColor = System.Drawing.Color.White;
-            this.guna2Button12.Location = new System.Drawing.Point(1010, 174);
+            this.guna2Button12.Location = new System.Drawing.Point(673, 113);
+            this.guna2Button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.Size = new System.Drawing.Size(112, 38);
+            this.guna2Button12.Size = new System.Drawing.Size(75, 25);
             this.guna2Button12.TabIndex = 78;
             this.guna2Button12.Text = "Ubah";
             // 
@@ -672,9 +691,10 @@ namespace pengkar_laura
             this.guna2Button13.FillColor = System.Drawing.Color.Navy;
             this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button13.ForeColor = System.Drawing.Color.White;
-            this.guna2Button13.Location = new System.Drawing.Point(896, 174);
+            this.guna2Button13.Location = new System.Drawing.Point(597, 113);
+            this.guna2Button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button13.Size = new System.Drawing.Size(72, 25);
             this.guna2Button13.TabIndex = 77;
             this.guna2Button13.Text = "Simpan";
             this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
@@ -682,36 +702,40 @@ namespace pengkar_laura
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(490, 236);
+            this.label42.Location = new System.Drawing.Point(327, 153);
+            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(119, 20);
+            this.label42.Size = new System.Drawing.Size(81, 13);
             this.label42.TabIndex = 76;
             this.label42.Text = "Tanggal Proses";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(491, 183);
+            this.label43.Location = new System.Drawing.Point(327, 119);
+            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(86, 20);
+            this.label43.Size = new System.Drawing.Size(57, 13);
             this.label43.TabIndex = 75;
             this.label43.Text = "Gaji Bersih";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(76, 312);
+            this.label44.Location = new System.Drawing.Point(51, 203);
+            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(85, 20);
+            this.label44.Size = new System.Drawing.Size(59, 13);
             this.label44.TabIndex = 74;
             this.label44.Text = "Gaji Pokok";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(76, 238);
+            this.label45.Location = new System.Drawing.Point(51, 155);
+            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(54, 20);
+            this.label45.Size = new System.Drawing.Size(38, 13);
             this.label45.TabIndex = 73;
             this.label45.Text = "Tahun";
             // 
@@ -728,12 +752,12 @@ namespace pengkar_laura
             this.txtgj.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtgj.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtgj.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtgj.Location = new System.Drawing.Point(638, 178);
-            this.txtgj.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtgj.Location = new System.Drawing.Point(425, 116);
+            this.txtgj.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtgj.Name = "txtgj";
             this.txtgj.PlaceholderText = "";
             this.txtgj.SelectedText = "";
-            this.txtgj.Size = new System.Drawing.Size(226, 34);
+            this.txtgj.Size = new System.Drawing.Size(151, 22);
             this.txtgj.TabIndex = 72;
             // 
             // txtp
@@ -749,12 +773,12 @@ namespace pengkar_laura
             this.txtp.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtp.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtp.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtp.Location = new System.Drawing.Point(638, 128);
-            this.txtp.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtp.Location = new System.Drawing.Point(425, 83);
+            this.txtp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtp.Name = "txtp";
             this.txtp.PlaceholderText = "";
             this.txtp.SelectedText = "";
-            this.txtp.Size = new System.Drawing.Size(226, 34);
+            this.txtp.Size = new System.Drawing.Size(151, 22);
             this.txtp.TabIndex = 71;
             // 
             // cmbbln
@@ -769,9 +793,10 @@ namespace pengkar_laura
             this.cmbbln.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbbln.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbbln.ItemHeight = 30;
-            this.cmbbln.Location = new System.Drawing.Point(200, 160);
+            this.cmbbln.Location = new System.Drawing.Point(133, 104);
+            this.cmbbln.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbbln.Name = "cmbbln";
-            this.cmbbln.Size = new System.Drawing.Size(226, 36);
+            this.cmbbln.Size = new System.Drawing.Size(152, 36);
             this.cmbbln.TabIndex = 70;
             // 
             // cmbyr
@@ -786,9 +811,10 @@ namespace pengkar_laura
             this.cmbyr.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbyr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbyr.ItemHeight = 30;
-            this.cmbyr.Location = new System.Drawing.Point(200, 236);
+            this.cmbyr.Location = new System.Drawing.Point(133, 153);
+            this.cmbyr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbyr.Name = "cmbyr";
-            this.cmbyr.Size = new System.Drawing.Size(226, 36);
+            this.cmbyr.Size = new System.Drawing.Size(152, 36);
             this.cmbyr.TabIndex = 69;
             // 
             // tm
@@ -798,65 +824,72 @@ namespace pengkar_laura
             this.tm.FillColor = System.Drawing.Color.White;
             this.tm.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tm.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.tm.Location = new System.Drawing.Point(638, 223);
+            this.tm.Location = new System.Drawing.Point(425, 145);
+            this.tm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tm.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.tm.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.tm.Name = "tm";
-            this.tm.Size = new System.Drawing.Size(226, 35);
+            this.tm.Size = new System.Drawing.Size(151, 23);
             this.tm.TabIndex = 68;
             this.tm.Value = new System.DateTime(2026, 9, 10, 17, 27, 26, 215);
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(491, 138);
+            this.label46.Location = new System.Drawing.Point(327, 90);
+            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(78, 20);
+            this.label46.Size = new System.Drawing.Size(53, 13);
             this.label46.TabIndex = 67;
             this.label46.Text = "Potongan";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(491, 94);
+            this.label47.Location = new System.Drawing.Point(327, 61);
+            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(63, 20);
+            this.label47.Size = new System.Drawing.Size(42, 13);
             this.label47.TabIndex = 66;
             this.label47.Text = "Lembur";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(83, 172);
+            this.label48.Location = new System.Drawing.Point(55, 112);
+            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(50, 20);
+            this.label48.Size = new System.Drawing.Size(34, 13);
             this.label48.TabIndex = 65;
             this.label48.Text = "Bulan";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(210, 48);
+            this.label49.Location = new System.Drawing.Point(140, 31);
+            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(19, 20);
+            this.label49.Size = new System.Drawing.Size(13, 13);
             this.label49.TabIndex = 64;
             this.label49.Text = "--";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(76, 48);
+            this.label50.Location = new System.Drawing.Point(51, 31);
+            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(82, 20);
+            this.label50.Size = new System.Drawing.Size(60, 13);
             this.label50.TabIndex = 63;
             this.label50.Text = "ID             :";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(83, 89);
+            this.label51.Location = new System.Drawing.Point(55, 58);
+            this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(78, 20);
+            this.label51.Size = new System.Drawing.Size(54, 13);
             this.label51.TabIndex = 62;
             this.label51.Tag = "";
             this.label51.Text = "Karyawan";
@@ -874,12 +907,12 @@ namespace pengkar_laura
             this.txtg.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtg.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtg.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtg.Location = new System.Drawing.Point(200, 309);
-            this.txtg.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtg.Location = new System.Drawing.Point(133, 201);
+            this.txtg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtg.Name = "txtg";
             this.txtg.PlaceholderText = "";
             this.txtg.SelectedText = "";
-            this.txtg.Size = new System.Drawing.Size(226, 34);
+            this.txtg.Size = new System.Drawing.Size(151, 22);
             this.txtg.TabIndex = 61;
             // 
             // cmbkar
@@ -894,9 +927,10 @@ namespace pengkar_laura
             this.cmbkar.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbkar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbkar.ItemHeight = 30;
-            this.cmbkar.Location = new System.Drawing.Point(200, 78);
+            this.cmbkar.Location = new System.Drawing.Point(133, 51);
+            this.cmbkar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbkar.Name = "cmbkar";
-            this.cmbkar.Size = new System.Drawing.Size(226, 36);
+            this.cmbkar.Size = new System.Drawing.Size(152, 36);
             this.cmbkar.TabIndex = 60;
             // 
             // txtl
@@ -912,12 +946,12 @@ namespace pengkar_laura
             this.txtl.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtl.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtl.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtl.Location = new System.Drawing.Point(638, 80);
-            this.txtl.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtl.Location = new System.Drawing.Point(425, 52);
+            this.txtl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtl.Name = "txtl";
             this.txtl.PlaceholderText = "";
             this.txtl.SelectedText = "";
-            this.txtl.Size = new System.Drawing.Size(226, 34);
+            this.txtl.Size = new System.Drawing.Size(151, 22);
             this.txtl.TabIndex = 59;
             // 
             // txtj
@@ -933,20 +967,21 @@ namespace pengkar_laura
             this.txtj.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtj.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtj.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtj.Location = new System.Drawing.Point(638, 34);
-            this.txtj.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtj.Location = new System.Drawing.Point(425, 22);
+            this.txtj.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtj.Name = "txtj";
             this.txtj.PlaceholderText = "";
             this.txtj.SelectedText = "";
-            this.txtj.Size = new System.Drawing.Size(226, 34);
+            this.txtj.Size = new System.Drawing.Size(151, 22);
             this.txtj.TabIndex = 58;
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(493, 48);
+            this.label52.Location = new System.Drawing.Point(329, 31);
+            this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(84, 20);
+            this.label52.Size = new System.Drawing.Size(58, 13);
             this.label52.TabIndex = 57;
             this.label52.Text = "Tunjangan";
             // 
@@ -977,8 +1012,9 @@ namespace pengkar_laura
             this.guna2Panel3.Controls.Add(this.guna2TextBox6);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1310, 451);
+            this.guna2Panel3.Size = new System.Drawing.Size(873, 251);
             this.guna2Panel3.TabIndex = 52;
             // 
             // guna2ComboBox2
@@ -993,9 +1029,10 @@ namespace pengkar_laura
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(244, 138);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(163, 90);
+            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(226, 36);
+            this.guna2ComboBox2.Size = new System.Drawing.Size(152, 36);
             this.guna2ComboBox2.TabIndex = 31;
             // 
             // guna2ComboBox3
@@ -1010,17 +1047,19 @@ namespace pengkar_laura
             this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(994, 160);
+            this.guna2ComboBox3.Location = new System.Drawing.Point(663, 104);
+            this.guna2ComboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(226, 36);
+            this.guna2ComboBox3.Size = new System.Drawing.Size(152, 36);
             this.guna2ComboBox3.TabIndex = 30;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(873, 138);
+            this.label32.Location = new System.Drawing.Point(582, 90);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(56, 20);
+            this.label32.Size = new System.Drawing.Size(37, 13);
             this.label32.TabIndex = 29;
             this.label32.Text = "Status";
             // 
@@ -1032,47 +1071,52 @@ namespace pengkar_laura
             this.guna2DateTimePicker2.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(994, 43);
+            this.guna2DateTimePicker2.Location = new System.Drawing.Point(663, 28);
+            this.guna2DateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(226, 35);
+            this.guna2DateTimePicker2.Size = new System.Drawing.Size(151, 23);
             this.guna2DateTimePicker2.TabIndex = 28;
             this.guna2DateTimePicker2.Value = new System.DateTime(2026, 9, 5, 15, 50, 34, 535);
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(872, 51);
+            this.label33.Location = new System.Drawing.Point(581, 33);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(117, 20);
+            this.label33.Size = new System.Drawing.Size(81, 13);
             this.label33.TabIndex = 27;
             this.label33.Text = "Tanggal Masuk";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(518, 51);
+            this.label34.Location = new System.Drawing.Point(345, 33);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(59, 20);
+            this.label34.Size = new System.Drawing.Size(39, 13);
             this.label34.TabIndex = 26;
             this.label34.Text = "Alamat";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(130, 140);
+            this.label35.Location = new System.Drawing.Point(87, 91);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(106, 20);
+            this.label35.Size = new System.Drawing.Size(71, 13);
             this.label35.TabIndex = 25;
             this.label35.Text = "Jenis Kelamin";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(130, 51);
+            this.label36.Location = new System.Drawing.Point(87, 33);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(35, 20);
+            this.label36.Size = new System.Drawing.Size(25, 13);
             this.label36.TabIndex = 24;
             this.label36.Text = "NIK";
             // 
@@ -1089,12 +1133,12 @@ namespace pengkar_laura
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(612, 42);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox2.Location = new System.Drawing.Point(408, 27);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(226, 77);
+            this.guna2TextBox2.Size = new System.Drawing.Size(151, 50);
             this.guna2TextBox2.TabIndex = 23;
             // 
             // guna2TextBox4
@@ -1110,20 +1154,21 @@ namespace pengkar_laura
             this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(244, 85);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox4.Location = new System.Drawing.Point(163, 55);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(226, 34);
+            this.guna2TextBox4.Size = new System.Drawing.Size(151, 22);
             this.guna2TextBox4.TabIndex = 19;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(514, 135);
+            this.label37.Location = new System.Drawing.Point(343, 88);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(81, 20);
+            this.label37.Size = new System.Drawing.Size(57, 13);
             this.label37.TabIndex = 18;
             this.label37.Text = "No Telpon\r\n";
             // 
@@ -1140,12 +1185,12 @@ namespace pengkar_laura
             this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(612, 132);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox5.Location = new System.Drawing.Point(408, 86);
+            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(226, 34);
+            this.guna2TextBox5.Size = new System.Drawing.Size(151, 22);
             this.guna2TextBox5.TabIndex = 17;
             // 
             // guna2ComboBox4
@@ -1160,17 +1205,19 @@ namespace pengkar_laura
             this.guna2ComboBox4.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox4.ItemHeight = 30;
-            this.guna2ComboBox4.Location = new System.Drawing.Point(994, 88);
+            this.guna2ComboBox4.Location = new System.Drawing.Point(663, 57);
+            this.guna2ComboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ComboBox4.Name = "guna2ComboBox4";
-            this.guna2ComboBox4.Size = new System.Drawing.Size(226, 36);
+            this.guna2ComboBox4.Size = new System.Drawing.Size(152, 36);
             this.guna2ComboBox4.TabIndex = 16;
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(872, 89);
+            this.label38.Location = new System.Drawing.Point(581, 58);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(75, 20);
+            this.label38.Size = new System.Drawing.Size(51, 13);
             this.label38.TabIndex = 15;
             this.label38.Text = "Jabatan  ";
             // 
@@ -1184,9 +1231,10 @@ namespace pengkar_laura
             this.guna2Button5.FillColor = System.Drawing.Color.Navy;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(994, 272);
+            this.guna2Button5.Location = new System.Drawing.Point(663, 177);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(141, 38);
+            this.guna2Button5.Size = new System.Drawing.Size(94, 25);
             this.guna2Button5.TabIndex = 12;
             this.guna2Button5.Text = "Tampil data";
             // 
@@ -1200,9 +1248,10 @@ namespace pengkar_laura
             this.guna2Button6.FillColor = System.Drawing.Color.Navy;
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(1108, 229);
+            this.guna2Button6.Location = new System.Drawing.Point(739, 149);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(112, 38);
+            this.guna2Button6.Size = new System.Drawing.Size(75, 25);
             this.guna2Button6.TabIndex = 11;
             this.guna2Button6.Text = "Ubah";
             // 
@@ -1210,16 +1259,16 @@ namespace pengkar_laura
             // 
             this.guna2DataGridView4.AllowUserToAddRows = false;
             this.guna2DataGridView4.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.guna2DataGridView4.ColumnHeadersHeight = 22;
             this.guna2DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1234,23 +1283,24 @@ namespace pengkar_laura
             this.dataGridViewTextBoxColumn23,
             this.dataGridViewImageColumn5,
             this.dataGridViewImageColumn6});
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2DataGridView4.GridColor = System.Drawing.Color.Navy;
-            this.guna2DataGridView4.Location = new System.Drawing.Point(0, 137);
+            this.guna2DataGridView4.Location = new System.Drawing.Point(0, 47);
+            this.guna2DataGridView4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DataGridView4.Name = "guna2DataGridView4";
             this.guna2DataGridView4.ReadOnly = true;
             this.guna2DataGridView4.RowHeadersVisible = false;
             this.guna2DataGridView4.RowHeadersWidth = 62;
             this.guna2DataGridView4.RowTemplate.Height = 28;
-            this.guna2DataGridView4.Size = new System.Drawing.Size(1310, 314);
+            this.guna2DataGridView4.Size = new System.Drawing.Size(873, 204);
             this.guna2DataGridView4.TabIndex = 10;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView4.ThemeStyle.GridColor = System.Drawing.Color.Navy;
@@ -1347,36 +1397,40 @@ namespace pengkar_laura
             this.guna2Button2.FillColor = System.Drawing.Color.Navy;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(994, 229);
+            this.guna2Button2.Location = new System.Drawing.Point(663, 149);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button2.Size = new System.Drawing.Size(72, 25);
             this.guna2Button2.TabIndex = 9;
             this.guna2Button2.Text = "Simpan";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(94, 55);
+            this.label39.Location = new System.Drawing.Point(63, 36);
+            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(19, 20);
+            this.label39.Size = new System.Drawing.Size(13, 13);
             this.label39.TabIndex = 8;
             this.label39.Text = "--";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(28, 54);
+            this.label40.Location = new System.Drawing.Point(19, 35);
+            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(62, 20);
+            this.label40.Size = new System.Drawing.Size(45, 13);
             this.label40.TabIndex = 7;
             this.label40.Text = "ID        :";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(130, 89);
+            this.label41.Location = new System.Drawing.Point(87, 58);
+            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(51, 40);
+            this.label41.Size = new System.Drawing.Size(35, 26);
             this.label41.TabIndex = 6;
             this.label41.Text = "Nama\r\n\r\n";
             // 
@@ -1393,12 +1447,12 @@ namespace pengkar_laura
             this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(244, 42);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox6.Location = new System.Drawing.Point(163, 27);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PlaceholderText = "";
             this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(226, 34);
+            this.guna2TextBox6.Size = new System.Drawing.Size(151, 22);
             this.guna2TextBox6.TabIndex = 5;
             // 
             // guna2Panel2
@@ -1428,8 +1482,9 @@ namespace pengkar_laura
             this.guna2Panel2.Controls.Add(this.txtnik);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1310, 451);
+            this.guna2Panel2.Size = new System.Drawing.Size(873, 251);
             this.guna2Panel2.TabIndex = 51;
             // 
             // cmbjk
@@ -1444,9 +1499,10 @@ namespace pengkar_laura
             this.cmbjk.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbjk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbjk.ItemHeight = 30;
-            this.cmbjk.Location = new System.Drawing.Point(244, 138);
+            this.cmbjk.Location = new System.Drawing.Point(163, 90);
+            this.cmbjk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbjk.Name = "cmbjk";
-            this.cmbjk.Size = new System.Drawing.Size(226, 36);
+            this.cmbjk.Size = new System.Drawing.Size(152, 36);
             this.cmbjk.TabIndex = 31;
             // 
             // guna2ComboBox1
@@ -1461,17 +1517,19 @@ namespace pengkar_laura
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(994, 160);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(663, 104);
+            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(226, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(152, 36);
             this.guna2ComboBox1.TabIndex = 30;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(873, 138);
+            this.label18.Location = new System.Drawing.Point(582, 90);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(56, 20);
+            this.label18.Size = new System.Drawing.Size(37, 13);
             this.label18.TabIndex = 29;
             this.label18.Text = "Status";
             // 
@@ -1483,47 +1541,52 @@ namespace pengkar_laura
             this.date.FillColor = System.Drawing.Color.WhiteSmoke;
             this.date.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.date.Location = new System.Drawing.Point(994, 43);
+            this.date.Location = new System.Drawing.Point(663, 28);
+            this.date.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.date.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.date.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(226, 35);
+            this.date.Size = new System.Drawing.Size(151, 23);
             this.date.TabIndex = 28;
             this.date.Value = new System.DateTime(2026, 9, 5, 15, 50, 34, 535);
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(872, 51);
+            this.label23.Location = new System.Drawing.Point(581, 33);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(117, 20);
+            this.label23.Size = new System.Drawing.Size(81, 13);
             this.label23.TabIndex = 27;
             this.label23.Text = "Tanggal Masuk";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(518, 51);
+            this.label24.Location = new System.Drawing.Point(345, 33);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(59, 20);
+            this.label24.Size = new System.Drawing.Size(39, 13);
             this.label24.TabIndex = 26;
             this.label24.Text = "Alamat";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(130, 140);
+            this.label25.Location = new System.Drawing.Point(87, 91);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(106, 20);
+            this.label25.Size = new System.Drawing.Size(71, 13);
             this.label25.TabIndex = 25;
             this.label25.Text = "Jenis Kelamin";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(130, 51);
+            this.label26.Location = new System.Drawing.Point(87, 33);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(35, 20);
+            this.label26.Size = new System.Drawing.Size(25, 13);
             this.label26.TabIndex = 24;
             this.label26.Text = "NIK";
             // 
@@ -1540,12 +1603,12 @@ namespace pengkar_laura
             this.txtalamat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtalamat.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtalamat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtalamat.Location = new System.Drawing.Point(612, 42);
-            this.txtalamat.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtalamat.Location = new System.Drawing.Point(408, 27);
+            this.txtalamat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtalamat.Name = "txtalamat";
             this.txtalamat.PlaceholderText = "";
             this.txtalamat.SelectedText = "";
-            this.txtalamat.Size = new System.Drawing.Size(226, 77);
+            this.txtalamat.Size = new System.Drawing.Size(151, 50);
             this.txtalamat.TabIndex = 23;
             // 
             // guna2TextBox1
@@ -1561,20 +1624,21 @@ namespace pengkar_laura
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(244, 85);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox1.Location = new System.Drawing.Point(163, 55);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(226, 34);
+            this.guna2TextBox1.Size = new System.Drawing.Size(151, 22);
             this.guna2TextBox1.TabIndex = 19;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(514, 135);
+            this.label27.Location = new System.Drawing.Point(343, 88);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(81, 20);
+            this.label27.Size = new System.Drawing.Size(57, 13);
             this.label27.TabIndex = 18;
             this.label27.Text = "No Telpon\r\n";
             // 
@@ -1591,12 +1655,12 @@ namespace pengkar_laura
             this.txtNT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNT.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNT.Location = new System.Drawing.Point(612, 132);
-            this.txtNT.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtNT.Location = new System.Drawing.Point(408, 86);
+            this.txtNT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNT.Name = "txtNT";
             this.txtNT.PlaceholderText = "";
             this.txtNT.SelectedText = "";
-            this.txtNT.Size = new System.Drawing.Size(226, 34);
+            this.txtNT.Size = new System.Drawing.Size(151, 22);
             this.txtNT.TabIndex = 17;
             // 
             // cmbjabatan
@@ -1611,17 +1675,19 @@ namespace pengkar_laura
             this.cmbjabatan.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbjabatan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbjabatan.ItemHeight = 30;
-            this.cmbjabatan.Location = new System.Drawing.Point(994, 88);
+            this.cmbjabatan.Location = new System.Drawing.Point(663, 57);
+            this.cmbjabatan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbjabatan.Name = "cmbjabatan";
-            this.cmbjabatan.Size = new System.Drawing.Size(226, 36);
+            this.cmbjabatan.Size = new System.Drawing.Size(152, 36);
             this.cmbjabatan.TabIndex = 16;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(872, 89);
+            this.label28.Location = new System.Drawing.Point(581, 58);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(75, 20);
+            this.label28.Size = new System.Drawing.Size(51, 13);
             this.label28.TabIndex = 15;
             this.label28.Text = "Jabatan  ";
             // 
@@ -1635,9 +1701,10 @@ namespace pengkar_laura
             this.guna2Button9.FillColor = System.Drawing.Color.Navy;
             this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(994, 272);
+            this.guna2Button9.Location = new System.Drawing.Point(663, 177);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(141, 38);
+            this.guna2Button9.Size = new System.Drawing.Size(94, 25);
             this.guna2Button9.TabIndex = 12;
             this.guna2Button9.Text = "Tampil data";
             // 
@@ -1651,9 +1718,10 @@ namespace pengkar_laura
             this.guna2Button10.FillColor = System.Drawing.Color.Navy;
             this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button10.ForeColor = System.Drawing.Color.White;
-            this.guna2Button10.Location = new System.Drawing.Point(1108, 229);
+            this.guna2Button10.Location = new System.Drawing.Point(739, 149);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(112, 38);
+            this.guna2Button10.Size = new System.Drawing.Size(75, 25);
             this.guna2Button10.TabIndex = 11;
             this.guna2Button10.Text = "Ubah";
             // 
@@ -1661,16 +1729,16 @@ namespace pengkar_laura
             // 
             this.guna2DataGridView3.AllowUserToAddRows = false;
             this.guna2DataGridView3.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle18;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.guna2DataGridView3.ColumnHeadersHeight = 22;
             this.guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1685,23 +1753,24 @@ namespace pengkar_laura
             this.Column11,
             this.dataGridViewImageColumn3,
             this.dataGridViewImageColumn4});
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle10;
             this.guna2DataGridView3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2DataGridView3.GridColor = System.Drawing.Color.Navy;
-            this.guna2DataGridView3.Location = new System.Drawing.Point(0, 137);
+            this.guna2DataGridView3.Location = new System.Drawing.Point(0, 47);
+            this.guna2DataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DataGridView3.Name = "guna2DataGridView3";
             this.guna2DataGridView3.ReadOnly = true;
             this.guna2DataGridView3.RowHeadersVisible = false;
             this.guna2DataGridView3.RowHeadersWidth = 62;
             this.guna2DataGridView3.RowTemplate.Height = 28;
-            this.guna2DataGridView3.Size = new System.Drawing.Size(1310, 314);
+            this.guna2DataGridView3.Size = new System.Drawing.Size(873, 204);
             this.guna2DataGridView3.TabIndex = 10;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView3.ThemeStyle.GridColor = System.Drawing.Color.Navy;
@@ -1798,36 +1867,40 @@ namespace pengkar_laura
             this.guna2Button8.FillColor = System.Drawing.Color.Navy;
             this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(994, 229);
+            this.guna2Button8.Location = new System.Drawing.Point(663, 149);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button8.Size = new System.Drawing.Size(72, 25);
             this.guna2Button8.TabIndex = 9;
             this.guna2Button8.Text = "Simpan";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(94, 55);
+            this.label29.Location = new System.Drawing.Point(63, 36);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(19, 20);
+            this.label29.Size = new System.Drawing.Size(13, 13);
             this.label29.TabIndex = 8;
             this.label29.Text = "--";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(28, 54);
+            this.label30.Location = new System.Drawing.Point(19, 35);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(62, 20);
+            this.label30.Size = new System.Drawing.Size(45, 13);
             this.label30.TabIndex = 7;
             this.label30.Text = "ID        :";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(130, 89);
+            this.label31.Location = new System.Drawing.Point(87, 58);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(51, 40);
+            this.label31.Size = new System.Drawing.Size(35, 26);
             this.label31.TabIndex = 6;
             this.label31.Text = "Nama\r\n\r\n";
             // 
@@ -1844,47 +1917,51 @@ namespace pengkar_laura
             this.txtnik.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtnik.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtnik.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnik.Location = new System.Drawing.Point(244, 42);
-            this.txtnik.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtnik.Location = new System.Drawing.Point(163, 27);
+            this.txtnik.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnik.Name = "txtnik";
             this.txtnik.PlaceholderText = "";
             this.txtnik.SelectedText = "";
-            this.txtnik.Size = new System.Drawing.Size(226, 34);
+            this.txtnik.Size = new System.Drawing.Size(151, 22);
             this.txtnik.TabIndex = 5;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(470, 225);
+            this.label8.Location = new System.Drawing.Point(313, 146);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(119, 20);
+            this.label8.Size = new System.Drawing.Size(81, 13);
             this.label8.TabIndex = 50;
             this.label8.Text = "Tanggal Proses";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(471, 172);
+            this.label10.Location = new System.Drawing.Point(314, 112);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(86, 20);
+            this.label10.Size = new System.Drawing.Size(57, 13);
             this.label10.TabIndex = 49;
             this.label10.Text = "Gaji Bersih";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(53, 225);
+            this.label22.Location = new System.Drawing.Point(35, 146);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(85, 20);
+            this.label22.Size = new System.Drawing.Size(59, 13);
             this.label22.TabIndex = 48;
             this.label22.Text = "Gaji Pokok";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(53, 178);
+            this.label9.Location = new System.Drawing.Point(35, 116);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(54, 20);
+            this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 47;
             this.label9.Text = "Tahun";
             // 
@@ -1901,12 +1978,12 @@ namespace pengkar_laura
             this.txtgajibersih.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtgajibersih.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtgajibersih.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtgajibersih.Location = new System.Drawing.Point(618, 167);
-            this.txtgajibersih.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtgajibersih.Location = new System.Drawing.Point(412, 109);
+            this.txtgajibersih.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtgajibersih.Name = "txtgajibersih";
             this.txtgajibersih.PlaceholderText = "";
             this.txtgajibersih.SelectedText = "";
-            this.txtgajibersih.Size = new System.Drawing.Size(226, 34);
+            this.txtgajibersih.Size = new System.Drawing.Size(151, 22);
             this.txtgajibersih.TabIndex = 46;
             // 
             // txtpotongan
@@ -1922,12 +1999,12 @@ namespace pengkar_laura
             this.txtpotongan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtpotongan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtpotongan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtpotongan.Location = new System.Drawing.Point(618, 117);
-            this.txtpotongan.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtpotongan.Location = new System.Drawing.Point(412, 76);
+            this.txtpotongan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtpotongan.Name = "txtpotongan";
             this.txtpotongan.PlaceholderText = "";
             this.txtpotongan.SelectedText = "";
-            this.txtpotongan.Size = new System.Drawing.Size(226, 34);
+            this.txtpotongan.Size = new System.Drawing.Size(151, 22);
             this.txtpotongan.TabIndex = 45;
             // 
             // cmbbulan
@@ -1942,9 +2019,10 @@ namespace pengkar_laura
             this.cmbbulan.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbbulan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbbulan.ItemHeight = 30;
-            this.cmbbulan.Location = new System.Drawing.Point(180, 117);
+            this.cmbbulan.Location = new System.Drawing.Point(120, 76);
+            this.cmbbulan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbbulan.Name = "cmbbulan";
-            this.cmbbulan.Size = new System.Drawing.Size(226, 36);
+            this.cmbbulan.Size = new System.Drawing.Size(152, 36);
             this.cmbbulan.TabIndex = 44;
             // 
             // cmbyear
@@ -1959,9 +2037,10 @@ namespace pengkar_laura
             this.cmbyear.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbyear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbyear.ItemHeight = 30;
-            this.cmbyear.Location = new System.Drawing.Point(180, 169);
+            this.cmbyear.Location = new System.Drawing.Point(120, 110);
+            this.cmbyear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbyear.Name = "cmbyear";
-            this.cmbyear.Size = new System.Drawing.Size(226, 36);
+            this.cmbyear.Size = new System.Drawing.Size(152, 36);
             this.cmbyear.TabIndex = 43;
             // 
             // guna2DateTimePicker1
@@ -1971,65 +2050,72 @@ namespace pengkar_laura
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(618, 212);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(412, 138);
+            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(226, 35);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(151, 23);
             this.guna2DateTimePicker1.TabIndex = 42;
             this.guna2DateTimePicker1.Value = new System.DateTime(2026, 9, 10, 17, 27, 26, 215);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(471, 127);
+            this.label11.Location = new System.Drawing.Point(314, 83);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(78, 20);
+            this.label11.Size = new System.Drawing.Size(53, 13);
             this.label11.TabIndex = 41;
             this.label11.Text = "Potongan";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(471, 83);
+            this.label16.Location = new System.Drawing.Point(314, 54);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(63, 20);
+            this.label16.Size = new System.Drawing.Size(42, 13);
             this.label16.TabIndex = 40;
             this.label16.Text = "Lembur";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(52, 128);
+            this.label17.Location = new System.Drawing.Point(35, 83);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 20);
+            this.label17.Size = new System.Drawing.Size(34, 13);
             this.label17.TabIndex = 39;
             this.label17.Text = "Bulan";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(190, 37);
+            this.label19.Location = new System.Drawing.Point(127, 24);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(19, 20);
+            this.label19.Size = new System.Drawing.Size(13, 13);
             this.label19.TabIndex = 37;
             this.label19.Text = "--";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(56, 37);
+            this.label20.Location = new System.Drawing.Point(37, 24);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(82, 20);
+            this.label20.Size = new System.Drawing.Size(60, 13);
             this.label20.TabIndex = 36;
             this.label20.Text = "ID             :";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(52, 78);
+            this.label21.Location = new System.Drawing.Point(35, 51);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(78, 20);
+            this.label21.Size = new System.Drawing.Size(54, 13);
             this.label21.TabIndex = 35;
             this.label21.Tag = "";
             this.label21.Text = "Karyawan";
@@ -2047,12 +2133,12 @@ namespace pengkar_laura
             this.txtgp.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtgp.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtgp.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtgp.Location = new System.Drawing.Point(180, 216);
-            this.txtgp.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtgp.Location = new System.Drawing.Point(120, 140);
+            this.txtgp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtgp.Name = "txtgp";
             this.txtgp.PlaceholderText = "";
             this.txtgp.SelectedText = "";
-            this.txtgp.Size = new System.Drawing.Size(226, 34);
+            this.txtgp.Size = new System.Drawing.Size(151, 22);
             this.txtgp.TabIndex = 34;
             // 
             // cmbkaryawan
@@ -2067,9 +2153,10 @@ namespace pengkar_laura
             this.cmbkaryawan.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbkaryawan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbkaryawan.ItemHeight = 30;
-            this.cmbkaryawan.Location = new System.Drawing.Point(180, 67);
+            this.cmbkaryawan.Location = new System.Drawing.Point(120, 44);
+            this.cmbkaryawan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbkaryawan.Name = "cmbkaryawan";
-            this.cmbkaryawan.Size = new System.Drawing.Size(226, 36);
+            this.cmbkaryawan.Size = new System.Drawing.Size(152, 36);
             this.cmbkaryawan.TabIndex = 33;
             // 
             // txtlembur
@@ -2085,12 +2172,12 @@ namespace pengkar_laura
             this.txtlembur.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtlembur.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtlembur.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtlembur.Location = new System.Drawing.Point(618, 69);
-            this.txtlembur.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtlembur.Location = new System.Drawing.Point(412, 45);
+            this.txtlembur.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtlembur.Name = "txtlembur";
             this.txtlembur.PlaceholderText = "";
             this.txtlembur.SelectedText = "";
-            this.txtlembur.Size = new System.Drawing.Size(226, 34);
+            this.txtlembur.Size = new System.Drawing.Size(151, 22);
             this.txtlembur.TabIndex = 20;
             // 
             // txttunjangan
@@ -2106,20 +2193,21 @@ namespace pengkar_laura
             this.txttunjangan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txttunjangan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txttunjangan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttunjangan.Location = new System.Drawing.Point(618, 23);
-            this.txttunjangan.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txttunjangan.Location = new System.Drawing.Point(412, 15);
+            this.txttunjangan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txttunjangan.Name = "txttunjangan";
             this.txttunjangan.PlaceholderText = "";
             this.txttunjangan.SelectedText = "";
-            this.txttunjangan.Size = new System.Drawing.Size(226, 34);
+            this.txttunjangan.Size = new System.Drawing.Size(151, 22);
             this.txttunjangan.TabIndex = 17;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(473, 37);
+            this.label12.Location = new System.Drawing.Point(315, 24);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(84, 20);
+            this.label12.Size = new System.Drawing.Size(58, 13);
             this.label12.TabIndex = 15;
             this.label12.Text = "Tunjangan";
             // 
@@ -2133,36 +2221,40 @@ namespace pengkar_laura
             this.guna2Button7.FillColor = System.Drawing.Color.Navy;
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Location = new System.Drawing.Point(962, 109);
+            this.guna2Button7.Location = new System.Drawing.Point(641, 71);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(108, 38);
+            this.guna2Button7.Size = new System.Drawing.Size(72, 25);
             this.guna2Button7.TabIndex = 9;
             this.guna2Button7.Text = "Simpan";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(194, 37);
+            this.label13.Location = new System.Drawing.Point(129, 24);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(19, 20);
+            this.label13.Size = new System.Drawing.Size(13, 13);
             this.label13.TabIndex = 8;
             this.label13.Text = "--";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(58, 37);
+            this.label14.Location = new System.Drawing.Point(39, 24);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(82, 20);
+            this.label14.Size = new System.Drawing.Size(60, 13);
             this.label14.TabIndex = 7;
             this.label14.Text = "ID             :";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(56, 78);
+            this.label15.Location = new System.Drawing.Point(37, 51);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(78, 20);
+            this.label15.Size = new System.Drawing.Size(54, 13);
             this.label15.TabIndex = 6;
             this.label15.Tag = "";
             this.label15.Text = "Karyawan";
@@ -2180,19 +2272,19 @@ namespace pengkar_laura
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(188, 69);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.guna2TextBox3.Location = new System.Drawing.Point(125, 45);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(226, 34);
+            this.guna2TextBox3.Size = new System.Drawing.Size(151, 22);
             this.guna2TextBox3.TabIndex = 5;
             // 
             // Ftransaksi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1310, 692);
+            this.ClientSize = new System.Drawing.Size(873, 450);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.cmbket);
             this.Controls.Add(this.guna2Button4);
@@ -2211,7 +2303,6 @@ namespace pengkar_laura
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtnm);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Ftransaksi";
             this.Text = "Ftransaksi";
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();

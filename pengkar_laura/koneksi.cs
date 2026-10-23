@@ -14,7 +14,7 @@ namespace pengkar_laura
          "server = 127.0.0.1;" +
          "username = root;" +
          "password= ;" +
-         "database = db_pengkar;");
+         "database = db_payroll;");
         public static DataSet DS = new DataSet();
         public static MySqlDataAdapter DA;
         public static MySqlCommand Perintah;
