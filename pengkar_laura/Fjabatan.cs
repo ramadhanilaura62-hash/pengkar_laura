@@ -171,7 +171,8 @@ namespace pengkar_laura
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-           
+            Form2 form = new Form2();
+            form.ShowDialog();
         }
     }
 

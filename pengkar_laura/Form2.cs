@@ -32,7 +32,7 @@ namespace pengkar_laura
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            string reportPath = @"E:\TugasDestop\Project_destop_laura\pengkar_laura\LAPORAN ABSENSI_(V1-LAPORAN).rpt";
+            string reportPath = @"E:\TugasDestop\Project_destop_laura\pengkar_laura\Laporan Karyawan & Jabatan_(V2-LAPORAN).rpt";
 
             try
             {
